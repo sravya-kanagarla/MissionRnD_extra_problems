@@ -1,0 +1,39 @@
+﻿Build started 22-10-2015 11:49:50.
+     1>Project "E:\Mission R & D\microsoft c++\6sep2k15\mulArrExceptItself\mulArrExceptItself\mulArrExceptItself.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\Mission R & D\microsoft c++\6sep2k15\mulArrExceptItself\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\mulArrExceptItself.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\mulArrExceptItself.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\mulArrExceptItself.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mulArrExceptItself.cpp
+         mulArrExceptItself.cpp
+     1>e:\mission r & d\microsoft c++\6sep2k15\mularrexceptitself\mularrexceptitself\mularrexceptitself.cpp(31): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>e:\mission r & d\microsoft c++\6sep2k15\mularrexceptitself\mularrexceptitself\mularrexceptitself.cpp(35): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>e:\mission r & d\microsoft c++\6sep2k15\mularrexceptitself\mularrexceptitself\mularrexceptitself.cpp(39): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\mulArrExceptItself.exe.embed.manifest.res" Debug\mulArrExceptItself_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Mission R & D\microsoft c++\6sep2k15\mulArrExceptItself\Debug\mulArrExceptItself.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mulArrExceptItself.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Mission R & D\microsoft c++\6sep2k15\mulArrExceptItself\Debug\mulArrExceptItself.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Mission R & D\microsoft c++\6sep2k15\mulArrExceptItself\Debug\mulArrExceptItself.lib" /MACHINE:X86 Debug\mulArrExceptItself.exe.embed.manifest.res
+         Debug\mulArrExceptItself.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\mulArrExceptItself.exe.embed.manifest" /manifest Debug\mulArrExceptItself.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\mulArrExceptItself.exe.embed.manifest.res" Debug\mulArrExceptItself_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Mission R & D\microsoft c++\6sep2k15\mulArrExceptItself\Debug\mulArrExceptItself.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mulArrExceptItself.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Mission R & D\microsoft c++\6sep2k15\mulArrExceptItself\Debug\mulArrExceptItself.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Mission R & D\microsoft c++\6sep2k15\mulArrExceptItself\Debug\mulArrExceptItself.lib" /MACHINE:X86 Debug\mulArrExceptItself.exe.embed.manifest.res
+         Debug\mulArrExceptItself.obj
+         Debug\stdafx.obj
+         mulArrExceptItself.vcxproj -> E:\Mission R & D\microsoft c++\6sep2k15\mulArrExceptItself\Debug\mulArrExceptItself.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\mulArrExceptItself.unsuccessfulbuild".
+         Touching "Debug\mulArrExceptItself.lastbuildstate".
+     1>Done Building Project "E:\Mission R & D\microsoft c++\6sep2k15\mulArrExceptItself\mulArrExceptItself\mulArrExceptItself.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.86
